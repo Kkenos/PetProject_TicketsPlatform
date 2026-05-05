@@ -1,6 +1,6 @@
-package TicketsBookingPlatform.Configuration;
+package UserService.Configuration;
 
-import TicketsBookingPlatform.Services.JWTTokenValidationService;
+import UserService.Services.JWTTokenValidationService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

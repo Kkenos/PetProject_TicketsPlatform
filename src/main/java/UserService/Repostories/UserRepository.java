@@ -1,6 +1,6 @@
-package TicketsBookingPlatform.Repostories;
+package UserService.Repostories;
 
-import TicketsBookingPlatform.db.User;
+import UserService.db.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

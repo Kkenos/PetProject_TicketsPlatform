@@ -1,13 +1,13 @@
-package TicketsBookingPlatform.Controllers;
+package UserService.Controllers;
 
 
-import TicketsBookingPlatform.Services.UserService;
-import TicketsBookingPlatform.db.UserLoginDTO;
-import TicketsBookingPlatform.db.UserRegisterDTO;
+import UserService.Services.UserService;
+import UserService.db.UserLoginDTO;
+import UserService.db.UserRegisterDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import static TicketsBookingPlatform.Services.JWTTokenCreateService.generateToken;
+import static UserService.Services.JWTTokenCreateService.generateToken;
 
 @RestController
 @RequestMapping("/auth")

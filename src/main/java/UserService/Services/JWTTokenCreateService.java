@@ -1,4 +1,4 @@
-package TicketsBookingPlatform.Services;
+package UserService.Services;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import io.jsonwebtoken.Jwts;
