@@ -1,4 +1,4 @@
-package TicketsBookingPlatform.Services;
+package UserService.Services;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

@@ -1,11 +1,11 @@
-package TicketsBookingPlatform.Services;
+package UserService.Services;
 
-import TicketsBookingPlatform.Repostories.UserRepository;
-import TicketsBookingPlatform.db.UserLoginDTO;
-import TicketsBookingPlatform.db.UserRegisterDTO;
+import UserService.Repostories.UserRepository;
+import UserService.db.UserLoginDTO;
+import UserService.db.UserRegisterDTO;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import TicketsBookingPlatform.db.User;
+import UserService.db.User;
 
 @Service
 public class UserService {

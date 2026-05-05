@@ -1,4 +1,4 @@
-package TicketsBookingPlatform.Configuration;
+package UserService.Configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,4 +1,4 @@
-package TicketsBookingPlatform.db;
+package UserService.db;
 import jakarta.persistence.*;
 
 @Entity
